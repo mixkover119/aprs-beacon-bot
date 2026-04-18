@@ -3,7 +3,7 @@ name: APRS Beacon
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '15 */3 * * *'
 
 env:
   ACTIONS_ALLOW_USE_NODE24: true
